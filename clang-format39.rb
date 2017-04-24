@@ -4,10 +4,10 @@ class ClangFormat39 < Formula
   version "2016-12-09"
 
   stable do
-    url "https://github.com/danielmartin/llvm.git", :branch => "pspdfkit/format-stable"
+    url "https://github.com/pspdfkit-labs/llvm.git", :branch => "pspdfkit/format-stable"
 
     resource "clang" do
-      url "https://github.com/danielmartin/clang.git", :branch => "pspdfkit/format-stable"
+      url "https://github.com/pspdfkit-labs/clang.git", :branch => "pspdfkit/format-stable"
     end
 
     resource "libcxx" do
